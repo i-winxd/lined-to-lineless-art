@@ -30,6 +30,16 @@ For each transparent pixel on the color image, if the stroke image isn't transpa
 
 Note that I use Clip Studio Paint's vector layers, so the paint bucket treats each stroke as being 1px wide. This means that the transparent artifacts are very small. *Do NOT worry about this*, all that is required is that your stroke layer mask all white parts completely. You may need to expand the fill region (either native to the paint bucket settings, or use the Magic wand -> expand selection).
 
+### Input Stroke
+
 ![sONLY](https://github.com/i-winxd/lined-to-lineless-art/assets/31808925/8b97625e-afb3-44a8-90a1-969204bbb406)
 
+### Input Color
+
 ![cONLY](https://github.com/i-winxd/lined-to-lineless-art/assets/31808925/bdac0474-4364-4071-90b0-e162d221ecd0)
+
+### Output
+
+With some retouching. Not perfect, but makes it way tolerable. Note that I used seperate layers for seperate components in the drawing, and using an example that didn't do that would probably be better.
+
+![linelessifitwas](https://github.com/i-winxd/lined-to-lineless-art/assets/31808925/e5b6362b-2f3a-47b4-a838-dee79aef95fe)
