@@ -9,7 +9,7 @@ If you haven't run a Python program before, look up a basic hello world tutorial
 
 ## Inputs
 
-Running `main.py` will open a UI that prompts you to select two files:
+Running `isf_ui.py` (`python isf_ui.py`) will open a UI that prompts you to select two files:
 
 - A stroke PNG file. Your drawing with only the stroke layer visible. Everything else should be transparent.
 - A color PNG file. Your drawing with only the color layer visible; no background. Everything else should be transparent.
