@@ -1,0 +1,4 @@
+*.png
+export/*.png
+ru*
+__pycache__/
