@@ -174,7 +174,7 @@ class ImageCombiner:
         """RUNTIME: O(n^2 * UPPER_LIMIT)"""
         stroke_image = pixel_list_to_image(self._stroke_pixel_list)
         color_image = pixel_list_to_image(self._color_pixel_list)
-        background = Image.new('RGB', color_image.size, "#2c4464")
+        background = Image.new('RGBA', color_image.size, (0, 0, 0, 0))
         background.paste(stroke_image, mask=stroke_image.split()[3])
         background.paste(color_image, mask=color_image.split()[3])
         return stroke_image, background
